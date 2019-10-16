@@ -1,9 +1,17 @@
 uuid: 8afd6f65-be07-4bc6-ba93-e487e13ae562
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.recette_de_cuisine.field_duree
+    - field.field.node.recette_de_cuisine.field_etape_de_la_recette
+    - field.field.node.recette_de_cuisine.field_image_recette
+    - field.field.node.recette_de_cuisine.field_ingredients
+    - field.field.node.recette_de_cuisine.field_saison
+    - field.field.node.recette_de_cuisine.field_titre
+    - field.field.node.recette_de_cuisine.field_type_d_alimentation
+    - field.field.node.recette_de_cuisine.field_type_de_plat
     - node.type.recette_de_cuisine
   module:
     - user
@@ -18,4 +26,12 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_duree: true
+  field_etape_de_la_recette: true
+  field_image_recette: true
+  field_ingredients: true
+  field_saison: true
+  field_titre: true
+  field_type_d_alimentation: true
+  field_type_de_plat: true
   langcode: true

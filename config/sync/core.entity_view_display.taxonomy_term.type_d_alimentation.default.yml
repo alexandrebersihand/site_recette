@@ -1,15 +1,15 @@
-uuid: 07d69aae-f78f-4a22-8556-335eff281cc4
+uuid: 2bc84c7f-7613-4d92-888b-d0910ecd7e5f
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.type_de_plat.field_type_de_plat
-    - taxonomy.vocabulary.type_de_plat
+    - field.field.taxonomy_term.type_d_alimentation.field_type_d_alimentation
+    - taxonomy.vocabulary.type_d_alimentation
   module:
     - text
-id: taxonomy_term.type_de_plat.default
+id: taxonomy_term.type_d_alimentation.default
 targetEntityType: taxonomy_term
-bundle: type_de_plat
+bundle: type_d_alimentation
 mode: default
 content:
   description:
@@ -19,7 +19,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_type_de_plat:
+  field_type_d_alimentation:
     weight: 1
     label: above
     settings:

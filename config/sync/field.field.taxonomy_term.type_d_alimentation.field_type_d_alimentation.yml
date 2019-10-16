@@ -1,0 +1,19 @@
+uuid: 6dcdec2c-9e04-463c-928d-aed5da9feb87
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_type_d_alimentation
+    - taxonomy.vocabulary.type_d_alimentation
+id: taxonomy_term.type_d_alimentation.field_type_d_alimentation
+field_name: field_type_d_alimentation
+entity_type: taxonomy_term
+bundle: type_d_alimentation
+label: 'Type d''alimentation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

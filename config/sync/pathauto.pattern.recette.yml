@@ -1,0 +1,22 @@
+uuid: 21adb388-d965-47ed-ae3a-d3f62ec26176
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: recette
+label: recette
+type: 'canonical_entities:node'
+pattern: '/recette/[node:field_type_de_plat]/[node:field_saison]/[node:field_type_d_alimentation]/[node:title]'
+selection_criteria:
+  0d4f348c-547c-49a8-a004-7baebda891dd:
+    id: node_type
+    bundles:
+      recette_de_cuisine: recette_de_cuisine
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0d4f348c-547c-49a8-a004-7baebda891dd
+selection_logic: and
+weight: 0
+relationships: {  }

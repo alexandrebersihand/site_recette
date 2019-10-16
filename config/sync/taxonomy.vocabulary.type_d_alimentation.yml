@@ -1,0 +1,8 @@
+uuid: f3487d09-952a-41f0-ba8d-11ef84895ef2
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type d alimentation'
+vid: type_d_alimentation
+description: ''
+weight: 0

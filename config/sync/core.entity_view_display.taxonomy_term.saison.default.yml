@@ -1,15 +1,15 @@
-uuid: 07d69aae-f78f-4a22-8556-335eff281cc4
+uuid: 9ce88d54-a468-4dc4-b73e-400281f936cd
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.type_de_plat.field_type_de_plat
-    - taxonomy.vocabulary.type_de_plat
+    - field.field.taxonomy_term.saison.field_saison
+    - taxonomy.vocabulary.saison
   module:
     - text
-id: taxonomy_term.type_de_plat.default
+id: taxonomy_term.saison.default
 targetEntityType: taxonomy_term
-bundle: type_de_plat
+bundle: saison
 mode: default
 content:
   description:
@@ -19,7 +19,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_type_de_plat:
+  field_saison:
     weight: 1
     label: above
     settings:
