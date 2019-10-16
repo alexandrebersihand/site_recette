@@ -1,0 +1,8 @@
+uuid: 6a732a77-15d2-4d17-a24f-cc0f5a7321cd
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de plat'
+vid: type_de_plat
+description: ''
+weight: 0

@@ -1,0 +1,92 @@
+uuid: 6fce8aa0-cb3a-4bc1-9cb8-6e3071e4ffdf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.recette_de_cuisine.field_duree
+    - field.field.node.recette_de_cuisine.field_etape_de_la_recette
+    - field.field.node.recette_de_cuisine.field_image_recette
+    - field.field.node.recette_de_cuisine.field_ingredients
+    - field.field.node.recette_de_cuisine.field_saison
+    - field.field.node.recette_de_cuisine.field_titre
+    - field.field.node.recette_de_cuisine.field_type_d_alimentation
+    - field.field.node.recette_de_cuisine.field_type_de_plat
+    - node.type.recette_de_cuisine
+  module:
+    - duration_field
+    - image
+    - options
+    - user
+id: node.recette_de_cuisine.default
+targetEntityType: node
+bundle: recette_de_cuisine
+mode: default
+content:
+  field_duree:
+    weight: 5
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: duration_time_display
+    region: content
+  field_etape_de_la_recette:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image_recette:
+    weight: 4
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_ingredients:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_saison:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_titre:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_type_d_alimentation:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_type_de_plat:
+    weight: 1
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

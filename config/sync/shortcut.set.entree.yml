@@ -1,0 +1,6 @@
+uuid: 4b15db25-4339-42d8-b012-2632131a21fc
+langcode: fr
+status: true
+dependencies: {  }
+id: entree
+label: Entrée

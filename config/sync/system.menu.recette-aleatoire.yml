@@ -1,0 +1,8 @@
+uuid: b528141e-4ae8-4067-a661-743afaa19812
+langcode: fr
+status: true
+dependencies: {  }
+id: recette-aleatoire
+label: 'recette aléatoire'
+description: 'recette aléatoire'
+locked: false

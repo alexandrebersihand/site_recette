@@ -1,0 +1,30 @@
+uuid: 8135d27c-5822-462e-8f52-503b9416f20b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_type_d_alimentation
+field_name: field_type_d_alimentation
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Sans restriction'
+      label: 'Sans restriction'
+    -
+      value: Végétarien
+      label: Végétarien
+    -
+      value: Vegan
+      label: Vegan
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

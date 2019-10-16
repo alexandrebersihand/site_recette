@@ -1,0 +1,14 @@
+uuid: 1a80e0a3-7689-46d9-af06-c71ddd452f18
+name: les-recettes-de-maithe
+mail: maithe@benalors.fr
+slogan: 'Le GRAS c''est la vie ! ! !'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

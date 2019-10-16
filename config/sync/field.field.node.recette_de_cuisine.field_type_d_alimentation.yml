@@ -1,0 +1,21 @@
+uuid: 0d57be5c-a2ca-4873-901a-a8130d947c72
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_d_alimentation
+    - node.type.recette_de_cuisine
+  module:
+    - options
+id: node.recette_de_cuisine.field_type_d_alimentation
+field_name: field_type_d_alimentation
+entity_type: node
+bundle: recette_de_cuisine
+label: 'Type d''alimentation'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

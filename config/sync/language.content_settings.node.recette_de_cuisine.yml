@@ -1,0 +1,11 @@
+uuid: e37f727a-93a3-4097-be74-2ea4ad3f4bfb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette_de_cuisine
+id: node.recette_de_cuisine
+target_entity_type_id: node
+target_bundle: recette_de_cuisine
+default_langcode: site_default
+language_alterable: false

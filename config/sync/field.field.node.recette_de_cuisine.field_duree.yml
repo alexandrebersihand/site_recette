@@ -1,0 +1,28 @@
+uuid: 65957a0a-bfd5-4846-91cd-dab3f677af57
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duree
+    - node.type.recette_de_cuisine
+  module:
+    - duration_field
+id: node.recette_de_cuisine.field_duree
+field_name: field_duree
+entity_type: node
+bundle: recette_de_cuisine
+label: Durée
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  granularity:
+    hour: true
+    minute: true
+    year: false
+    month: false
+    day: false
+    second: false
+field_type: duration

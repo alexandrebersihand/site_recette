@@ -1,0 +1,21 @@
+uuid: cc062f7a-883f-4f66-97da-dea972bf5582
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_de_plat
+    - node.type.recette_de_cuisine
+  module:
+    - options
+id: node.recette_de_cuisine.field_type_de_plat
+field_name: field_type_de_plat
+entity_type: node
+bundle: recette_de_cuisine
+label: 'Type de plat'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: 07d69aae-f78f-4a22-8556-335eff281cc4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_plat
+  module:
+    - text
+id: taxonomy_term.type_de_plat.default
+targetEntityType: taxonomy_term
+bundle: type_de_plat
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

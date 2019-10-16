@@ -1,0 +1,21 @@
+uuid: f9b61242-a4df-4a2c-b4d2-06b032e4e322
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_saison
+    - node.type.recette_de_cuisine
+  module:
+    - options
+id: node.recette_de_cuisine.field_saison
+field_name: field_saison
+entity_type: node
+bundle: recette_de_cuisine
+label: Saison
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

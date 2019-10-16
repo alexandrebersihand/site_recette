@@ -1,0 +1,19 @@
+uuid: c16bbb2f-db87-4689-84a7-366cf9ca7d14
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etape_de_la_recette
+    - node.type.recette_de_cuisine
+id: node.recette_de_cuisine.field_etape_de_la_recette
+field_name: field_etape_de_la_recette
+entity_type: node
+bundle: recette_de_cuisine
+label: 'Etape de la recette'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

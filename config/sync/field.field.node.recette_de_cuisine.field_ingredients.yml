@@ -1,0 +1,19 @@
+uuid: 5dda4893-b987-458c-8883-39b9661cc68d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.recette_de_cuisine
+id: node.recette_de_cuisine.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: recette_de_cuisine
+label: Ingrédients
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

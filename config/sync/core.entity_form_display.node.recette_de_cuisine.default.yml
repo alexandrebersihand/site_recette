@@ -1,0 +1,126 @@
+uuid: ca3bf144-2755-42cb-aa33-288dda1fd5ff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.recette_de_cuisine.field_duree
+    - field.field.node.recette_de_cuisine.field_etape_de_la_recette
+    - field.field.node.recette_de_cuisine.field_image_recette
+    - field.field.node.recette_de_cuisine.field_ingredients
+    - field.field.node.recette_de_cuisine.field_saison
+    - field.field.node.recette_de_cuisine.field_titre
+    - field.field.node.recette_de_cuisine.field_type_d_alimentation
+    - field.field.node.recette_de_cuisine.field_type_de_plat
+    - image.style.medium
+    - node.type.recette_de_cuisine
+  module:
+    - duration_field
+    - image
+    - path
+id: node.recette_de_cuisine.default
+targetEntityType: node
+bundle: recette_de_cuisine
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_duree:
+    weight: 4
+    settings:
+      duration: ''
+    third_party_settings: {  }
+    type: duration_widget
+    region: content
+  field_etape_de_la_recette:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image_recette:
+    weight: 3
+    settings:
+      preview_image_style: medium
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ingredients:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_saison:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_type_d_alimentation:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_type_de_plat:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  path:
+    type: path
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 11
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_titre: true
+  langcode: true

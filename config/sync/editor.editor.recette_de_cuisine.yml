@@ -1,0 +1,60 @@
+uuid: c83c8e7e-5a14-479b-b0f5-d80deeb435bf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.recette_de_cuisine
+  module:
+    - ckeditor
+format: recette_de_cuisine
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formats
+          items:
+            - Bold
+            - Styles
+            - Underline
+            - Italic
+            - JustifyLeft
+            - JustifyRight
+            - JustifyBlock
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Média
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Outils
+          items:
+            - Source
+            - Cut
+            - Copy
+            - Paste
+            - Format
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

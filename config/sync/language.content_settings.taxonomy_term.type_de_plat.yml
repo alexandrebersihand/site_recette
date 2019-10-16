@@ -1,0 +1,11 @@
+uuid: 9ca0df55-b869-4889-8c6b-af0894ee0901
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_plat
+id: taxonomy_term.type_de_plat
+target_entity_type_id: taxonomy_term
+target_bundle: type_de_plat
+default_langcode: site_default
+language_alterable: false

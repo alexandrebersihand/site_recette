@@ -1,0 +1,21 @@
+uuid: 8afd6f65-be07-4bc6-ba93-e487e13ae562
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.recette_de_cuisine
+  module:
+    - user
+id: node.recette_de_cuisine.teaser
+targetEntityType: node
+bundle: recette_de_cuisine
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
