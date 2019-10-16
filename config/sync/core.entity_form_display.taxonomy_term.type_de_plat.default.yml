@@ -3,6 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.type_de_plat.field_type_de_plat
     - taxonomy.vocabulary.type_de_plat
   module:
     - path
@@ -20,6 +21,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_type_de_plat:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   langcode:
     type: language_select
     weight: 2

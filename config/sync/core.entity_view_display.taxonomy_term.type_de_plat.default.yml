@@ -3,6 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.type_de_plat.field_type_de_plat
     - taxonomy.vocabulary.type_de_plat
   module:
     - text
@@ -18,5 +19,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_type_de_plat:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
 hidden:
   langcode: true

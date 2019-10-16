@@ -1,0 +1,33 @@
+uuid: ccf3268b-9386-4c92-9d48-51c5f714fff3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.autre_recette_meme_type
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__autre_recette_meme_type_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:autre_recette_meme_type-block_1'
+settings:
+  id: 'views_block:autre_recette_meme_type-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      recette_de_cuisine: recette_de_cuisine
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,31 @@
+uuid: 2bc84c7f-7613-4d92-888b-d0910ecd7e5f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_d_alimentation.field_type_d_alimentation
+    - taxonomy.vocabulary.type_d_alimentation
+  module:
+    - text
+id: taxonomy_term.type_d_alimentation.default
+targetEntityType: taxonomy_term
+bundle: type_d_alimentation
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_type_d_alimentation:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

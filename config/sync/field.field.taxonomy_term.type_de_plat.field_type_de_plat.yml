@@ -1,0 +1,19 @@
+uuid: e0e70947-6c08-41c9-bbd7-8fc15e5bfc7c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_type_de_plat
+    - taxonomy.vocabulary.type_de_plat
+id: taxonomy_term.type_de_plat.field_type_de_plat
+field_name: field_type_de_plat
+entity_type: taxonomy_term
+bundle: type_de_plat
+label: 'Type de plat'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

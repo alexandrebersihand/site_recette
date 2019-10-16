@@ -1,0 +1,11 @@
+uuid: 66c28a1e-1590-4f68-bfc2-3b6c7d698488
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_d_alimentation
+id: taxonomy_term.type_d_alimentation
+target_entity_type_id: taxonomy_term
+target_bundle: type_d_alimentation
+default_langcode: site_default
+language_alterable: false

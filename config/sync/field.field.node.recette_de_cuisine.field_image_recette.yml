@@ -11,7 +11,7 @@ id: node.recette_de_cuisine.field_image_recette
 field_name: field_image_recette
 entity_type: node
 bundle: recette_de_cuisine
-label: 'Image recette'
+label: .
 description: ''
 required: false
 translatable: false
@@ -25,8 +25,8 @@ settings:
   min_resolution: ''
   alt_field: true
   alt_field_required: true
-  title_field: false
-  title_field_required: false
+  title_field: true
+  title_field_required: true
   default_image:
     uuid: ''
     alt: ''

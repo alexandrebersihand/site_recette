@@ -163,43 +163,6 @@ display:
           plugin_id: language
           entity_type: node
           entity_field: langcode
-        field_image_recette_alt:
-          id: field_image_recette_alt
-          table: node__field_image_recette
-          field: field_image_recette_alt
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            placeholder: ''
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          plugin_id: string
       pager:
         type: full
         options:
@@ -225,7 +188,7 @@ display:
         type: views_query
         options:
           disable_sql_rewrite: false
-          distinct: true
+          distinct: false
           replica: false
           query_comment: ''
           query_tags: {  }
@@ -326,7 +289,7 @@ display:
       tags: {  }
   page_1:
     display_options:
-      path: accueil
+      path: node
       display_extenders: {  }
     display_plugin: page
     display_title: Page
