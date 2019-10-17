@@ -1,0 +1,5 @@
+# ligne de commande pour sauvegarde automatique du fichier "nom-de-sauvegarde-du-fichier".sh
+
+./scripts/backup.sh
+
+# ligne de commande pour restauration du fichier "nom-de-sauvegarde-du-fichier".sh
